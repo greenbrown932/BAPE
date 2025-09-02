@@ -1,0 +1,1 @@
+This directory contains the OpenAPI specification for the BAPE API. This specification defines the structure of the API, including endpoints, request/response formats, and data models. It is used to generate API documentation and client SDKs.

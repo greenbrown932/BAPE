@@ -1,0 +1,1 @@
+This directory contains the YARA plugin implementation. The YARA plugin enables the use of YARA rules to scan binary files for patterns. It provides functionality for matching against known malware signatures, identifying malicious code, and extracting relevant information.

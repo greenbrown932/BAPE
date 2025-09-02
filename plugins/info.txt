@@ -1,0 +1,5 @@
+This directory contains the implementations of the analysis plugins. Each subdirectory represents a specific plugin. Plugins are designed to perform specific analysis tasks, such as disassembly, file information extraction, and malware classification.
+
+- ghidra/: Ghidra plugin
+- radare2/: radare2 plugin
+- yara/: YARA plugin

@@ -1,0 +1,3 @@
+This directory contains the main.go file for the plugin registry service.
+The plugin registry stores information about available plugins and their versions.
+It provides an API for managing and discovering plugins.

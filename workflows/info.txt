@@ -1,0 +1,5 @@
+This directory contains example workflow definitions in YAML or JSON format. Workflows define the steps and plugins to be used for analyzing binary files. These files can be used to test the BAPE platform or to provide examples of how to create custom analysis pipelines.
+
+- malware-triage.yaml: Example workflow for malware triage.
+- firmware-analysis.yaml: Example workflow for firmware analysis.
+- research-deep-dive.yaml: Example workflow for reverse engineering research.

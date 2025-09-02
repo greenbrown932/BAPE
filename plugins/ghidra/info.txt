@@ -1,0 +1,1 @@
+This directory contains the Ghidra plugin implementation. The Ghidra plugin leverages the Ghidra reverse engineering tool to perform static analysis of binary files. It provides functionalities such as disassembly, decompilation, and code analysis.

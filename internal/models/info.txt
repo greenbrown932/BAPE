@@ -1,0 +1,1 @@
+This directory contains the data models and structures used throughout the BAPE project. These models define the data format for various entities, such as analysis results, workflow definitions, and plugin configurations.

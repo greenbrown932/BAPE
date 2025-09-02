@@ -1,0 +1,3 @@
+This directory contains the main.go file for the worker node service.
+The worker nodes execute the analysis tasks defined in the workflows.
+They are orchestrated by Kubernetes.

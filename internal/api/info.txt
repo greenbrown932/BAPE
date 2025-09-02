@@ -1,0 +1,1 @@
+This directory contains the implementation of the API handlers and related logic. It defines how the API gateway interacts with the other internal services.

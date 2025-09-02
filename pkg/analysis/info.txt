@@ -1,0 +1,1 @@
+This directory contains common analysis functions and types that can be used across different plugins and workflows. It provides a set of reusable utilities for performing various analysis tasks, such as file format detection, entropy calculations, and string extraction.

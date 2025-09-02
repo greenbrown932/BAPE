@@ -1,0 +1,10 @@
+This directory contains internal packages that are not meant to be used outside of the BAPE project.
+
+- api/: Contains API handlers and related logic.
+- worker/: Contains worker logic and task execution.
+- plugin/: Contains plugin loading, management, and interfaces.
+- workflow/: Contains workflow definitions and execution logic.
+- database/: Contains database interactions.
+- config/: Contains configuration loading and management.
+- storage/: Contains storage interactions (PostgreSQL, Redis, Object Storage).
+- models/: Contains data models and structures.

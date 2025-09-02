@@ -1,0 +1,1 @@
+This directory contains the radare2 plugin implementation. The radare2 plugin uses the radare2 reverse engineering framework for binary analysis. It offers features like disassembly, analysis, and debugging capabilities.

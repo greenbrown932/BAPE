@@ -1,0 +1,4 @@
+This directory contains documentation for the BAPE project.
+
+- api/: Contains the OpenAPI specification for the API Gateway.
+- architecture.md: Contains architecture diagrams and documentation.

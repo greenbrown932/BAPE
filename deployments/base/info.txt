@@ -1,0 +1,1 @@
+This directory contains the Terraform configurations for the base infrastructure components required by the BAPE platform. This includes the Kubernetes cluster itself, the storage solutions (e.g., object storage), and any networking setup. These resources form the foundation upon which the rest of the BAPE services will be deployed.

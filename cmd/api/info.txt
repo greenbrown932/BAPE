@@ -1,0 +1,3 @@
+This directory contains the main.go file for the API Gateway service.
+The API Gateway handles incoming requests and routes them to the appropriate services.
+It is built using Go and the Gin framework.

@@ -1,0 +1,1 @@
+This directory contains the implementation details for interacting with the storage layers, including PostgreSQL, Redis, and Object Storage (e.g., MinIO/S3). It provides functions for storing and retrieving data, managing connections, and handling data serialization/deserialization.

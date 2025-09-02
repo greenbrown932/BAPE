@@ -1,0 +1,1 @@
+This directory contains the configuration loading and management logic. It is responsible for parsing configuration files, handling environment variables, and providing access to application settings.

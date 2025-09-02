@@ -1,0 +1,1 @@
+This directory contains the core logic for managing and interacting with analysis plugins. It defines the plugin interfaces, loading mechanisms, and any related utilities.

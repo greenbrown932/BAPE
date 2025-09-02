@@ -1,0 +1,1 @@
+This directory contains the logic for defining, parsing, and executing workflows. It handles the orchestration of analysis steps, including dependencies, error handling, and resource management.

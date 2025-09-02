@@ -1,0 +1,1 @@
+This directory contains the Terraform configurations for deploying the BAPE services on the Kubernetes cluster. This includes deployments for the API Gateway, worker nodes, plugin registry, and any other core BAPE services. The configurations define the service deployments, scaling configurations, and service networking.

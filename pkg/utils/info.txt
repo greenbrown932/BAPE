@@ -1,0 +1,1 @@
+This directory contains utility functions that are used throughout the BAPE project. These functions provide common functionality, such as logging, error handling, and string manipulation.

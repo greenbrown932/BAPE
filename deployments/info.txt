@@ -1,0 +1,5 @@
+This directory contains infrastructure-as-code (IaC) definitions for deploying and managing the BAPE platform. It uses Terraform to define and provision the necessary infrastructure components, such as Kubernetes clusters, databases, and object storage.
+
+- base/: Contains definitions for the base infrastructure, such as the Kubernetes cluster and storage solutions.
+- services/: Contains definitions for deploying the various BAPE services, including the API Gateway, worker nodes, and plugin registry.
+- monitoring/: Contains definitions for setting up the monitoring stack, including Prometheus, Grafana, and related components.

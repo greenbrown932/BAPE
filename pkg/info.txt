@@ -1,0 +1,4 @@
+This directory contains public packages that are meant to be reusable across different parts of the BAPE project.
+
+- analysis/: Contains common analysis functions and types.
+- utils/: Contains utility functions.

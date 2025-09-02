@@ -1,0 +1,6 @@
+This directory contains the main application entry points for the BAPE project. Each subdirectory represents a different service or tool.
+
+- api/: Contains the entry point for the API Gateway service.
+- worker/: Contains the entry point for the worker node service.
+- plugin-registry/: Contains the entry point for the plugin registry service.
+- cli/: Contains the entry point for the command-line interface.

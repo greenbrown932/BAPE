@@ -1,0 +1,1 @@
+This directory contains the implementation of the worker logic and task execution. It is responsible for running the analysis plugins and managing their resources.
