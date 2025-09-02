@@ -1,0 +1,42 @@
+# .github/workflows/deploy.yml
+name: Deploy EKS Cluster
+
+on:
+  push:
+    branches:
+      - main # Trigger on pushes to the main branch
+
+jobs:
+  deploy:
+    name: "Deploy EKS Cluster"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./deployments/kubernetes/aws
+
+    permissions:
+      id-token: write # Needed for OIDC authentication with AWS
+      contents: read # Required to checkout the code
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: ${{ secrets.AWS_OIDC_ROLE }} # Replace with your IAM role ARN
+          aws-region: ${{ vars.AWS_REGION }}
+
+      - name: Terraform Init
+        id: init
+        run: terraform init -input=false
+
+      - name: Terraform Plan
+        id: plan
+        run: terraform plan -var-file="dev.tfvars" -input=false
+
+      - name: Terraform Apply
+        id: apply
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push' # Only apply on main branch pushes
+        run: terraform apply -var-file="dev.tfvars" -input=false -auto-approve
