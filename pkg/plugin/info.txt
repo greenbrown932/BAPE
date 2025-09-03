@@ -1,0 +1,1 @@
+This directory contains the public interfaces and data structures for BAPE plugins. It defines the contract that all plugins must adhere to.
